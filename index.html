@@ -13,27 +13,29 @@
     <title>Code School</title>
 </head>
 <body>
-    <div class="container">
-        <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-            <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
-          </a>
-    
-          <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#" class="nav-link px-2 link-secondary">Home</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Features</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">Pricing</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">FAQs</a></li>
-            <li><a href="#" class="nav-link px-2 link-dark">About</a></li>
-          </ul>
-    
-          <div class="col-md-3 text-end">
-            <button type="button" class="btn btn-outline-primary me-2">Login</button>
-            <button type="button" class="btn btn-primary">Sign-up</button>
-          </div>
-        </header>
-      </div>
-
+    <header>
+        <!-- navigation start -->
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container">
+              <a class="navbar-brand fs-3 fw-bolder" href="#">Code School</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item"><a class="nav-link text-dark fs-5" href="#">Home</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark fs-5" href="#">Courses</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark fs-5" href="#">Deals</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark fs-5" href="#">Success</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark fs-5" href="#">About</a></li>
+                  <li class="nav-item"><a class="nav-link text-dark fs-5" href="#">Register</a></li>
+                </ul>
+                <button class="btn btn-outline-primary fw-bold" type="submit">Register</button>
+              </div>
+            </div>
+        </nav>
+        <!-- navigation end -->
+    </header>
     <!-- bootstrap js -->
     <script src="./js/bootstrap.js"></script>
 </body>
