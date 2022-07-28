@@ -1,0 +1,81 @@
+.carousel-item::before{
+    content:"";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000000;
+    opacity: 0.7;
+}
+.carousel-caption{
+    width: 50%;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+}
+.carousel-caption h5 {
+    font-weight: bold;
+    font-size: 5.25em; /* small size since this is the default in Bootstrap */
+    text-align:center;
+}
+
+.carousel-caption p {
+    font-size: 1.125em; /* small size since this is the default in Bootstrap */
+    text-align:center;
+}
+@media (min-width: 576px) { /*Small devices (landscape phones, 576px and up)*/
+    .carousel-caption {
+        width: 50%;
+        top: 10%;
+        left:10%;
+    }
+    .carousel-caption h5 { 
+        font-size: 1.5em;
+    }
+    .carousel-caption p {
+        font-size: 0.9em;
+    }  
+}
+@media (min-width: 768px) {/* Medium devices (tablets, 768px and up)*/
+    .carousel-caption {
+        top: 30%;
+        left: 25%;
+    }
+    .carousel-caption h5 {
+        font-size: 3em;
+    }
+    .carousel-caption p {
+        font-size: 1em;
+    }  
+}
+@media (min-width: 992px) { /* Large devices (desktops, 992px and up)*/
+    .carousel-caption h5 {
+        font-size: 5.25em;
+    }
+    .carousel-caption p {
+        font-size: 1.125em;
+    }  
+}
+@media (min-width: 1200px) { /* Extra large devices (large desktops, 1200px and up)*/
+    .carousel-caption h5 {
+        font-size: 5.25em;
+    }
+    .carousel-caption p {
+        font-size: 1.125em;
+    }  
+}
+
+
+
+
+
+
+
+
+/* .carousel-caption{
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
