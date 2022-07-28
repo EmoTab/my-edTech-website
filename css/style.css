@@ -16,8 +16,8 @@
     text-align: center;
 }
 .carousel-caption h5 {
-    font-weight: bold;
-    font-size: 5.25em; /* small size since this is the default in Bootstrap */
+    font-weight: semibold;
+    font-size: 4em; /* small size since this is the default in Bootstrap */
     text-align:center;
 }
 
@@ -52,7 +52,7 @@
 }
 @media (min-width: 992px) { /* Large devices (desktops, 992px and up)*/
     .carousel-caption h5 {
-        font-size: 5.25em;
+        font-size: 4em;
     }
     .carousel-caption p {
         font-size: 1.125em;
@@ -60,7 +60,7 @@
 }
 @media (min-width: 1200px) { /* Extra large devices (large desktops, 1200px and up)*/
     .carousel-caption h5 {
-        font-size: 5.25em;
+        font-size: 4em;
     }
     .carousel-caption p {
         font-size: 1.125em;
